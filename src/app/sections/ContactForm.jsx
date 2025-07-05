@@ -65,7 +65,7 @@ export default function ContactForm() {
               onChange={(e) =>
                 setFormData({ ...formData, name: e.target.value })
               }
-              className="w-full mt-1 p-3 border border-gray-300 rounded"
+              className="w-full mt-1 p-3 border border-gray-300 rounded text-black"
             />
             {errors.name && (
               <p className="text-red-500 text-sm mt-1">{errors.name}</p>
@@ -81,7 +81,7 @@ export default function ContactForm() {
               onChange={(e) =>
                 setFormData({ ...formData, phone: e.target.value })
               }
-              className="w-full mt-1 p-3 border border-gray-300 rounded"
+              className="w-full mt-1 p-3 border border-gray-300 rounded text-black"
             />
             {errors.phone && (
               <p className="text-red-500 text-sm mt-1">{errors.phone}</p>
@@ -97,7 +97,7 @@ export default function ContactForm() {
               onChange={(e) =>
                 setFormData({ ...formData, email: e.target.value })
               }
-              className="w-full mt-1 p-3 border border-gray-300 rounded"
+              className="w-full mt-1 p-3 border border-gray-300 rounded text-black"
             />
             {errors.email && (
               <p className="text-red-500 text-sm mt-1">{errors.email}</p>
@@ -114,7 +114,7 @@ export default function ContactForm() {
               onChange={(e) =>
                 setFormData({ ...formData, message: e.target.value })
               }
-              className="w-full mt-1 p-3 border border-gray-300 rounded h-28"
+              className="w-full mt-1 p-3 border border-gray-300 rounded h-28 text-black"
             />
             {errors.message && (
               <p className="text-red-500 text-sm mt-1">{errors.message}</p>
@@ -123,7 +123,7 @@ export default function ContactForm() {
 
           {/* Preferred time */}
           <div>
-            <label className="block font-medium text-gray-700">
+            <label className="block font-medium text-gray-700 ">
               Preferred time to reach you
             </label>
             <input
@@ -132,7 +132,7 @@ export default function ContactForm() {
               onChange={(e) =>
                 setFormData({ ...formData, preferredTime: e.target.value })
               }
-              className="w-full mt-1 p-3 border border-gray-300 rounded"
+              className="w-full mt-1 p-3 border border-gray-300 rounded text-black"
             />
             {errors.preferredTime && (
               <p className="text-red-500 text-sm mt-1">
